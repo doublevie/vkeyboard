@@ -1,0 +1,15 @@
+.vkeyboard {
+  position: fixed;left: 0;right:0;bottom:0;
+  background: #cfd8dc ;padding : 1vh 1vw;min-height: 20px;
+  user-select: none;
+font-family:  HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+
+}
+.vkeyboard ul {list-style: none;float:none;padding:0;margin:0;height:51px; padding:0 3px;display: block;clear:right}
+.vkeyboard ul li{float: left;display: inline-block;width:6.5vw;height:45px;
+  background: #fff;text-align: center;line-height: 45px;border-radius: 5px;cursor: pointer;margin:0 0.5vw}
+.vkeyboard ul li.active ,.vkeyboard ul li:active {background:#b0bec5 }
+.vkeyboard ul li.c11 {width:7.5vw;}
+.vkeyboard ul li.c12 {width:9vw;}
+.vkeyboard ul li.c13 {width:10vw;}
+.vkeyboard ul li.del {width:10vw;}
